@@ -3,7 +3,11 @@
 To Implement Transfer Learning for classification using VGG-19 architecture.
 
 ## Problem Statement and Dataset
-Develop an image classification model using transfer learning with the pre-trained VGG19 model.
+In traditional machine learning, training deep neural networks from scratch requires a large amount of labeled data and significant computational resources. This becomes impractical for many real-world applications where data is scarce or costly to label.
+
+This project aims to explore Transfer Learning—a technique that leverages pre-trained models on large datasets (such as ImageNet) to solve different but related tasks with minimal training data. By fine-tuning these models for specific classification tasks, we can achieve high accuracy with reduced training time and computational cost.
+
+The goal is to demonstrate the effectiveness of transfer learning using popular architectures like VGG16, ResNet, and MobileNet on custom datasets.
 
 ## DESIGN STEPS
 ### STEP 1:
